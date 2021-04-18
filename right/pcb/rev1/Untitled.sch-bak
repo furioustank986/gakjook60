@@ -1,0 +1,62 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U?
+U 1 1 607BC7D8
+P 8970 3150
+F 0 "U?" H 8970 1261 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 8970 1170 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 8970 3150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 8970 3150 50  0001 C CNN
+	1    8970 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8970 4950 8870 4950
+Wire Wire Line
+	8870 4950 8870 5060
+Connection ~ 8870 4950
+$Comp
+L power:GND #PWR?
+U 1 1 607C1C66
+P 8870 5060
+F 0 "#PWR?" H 8870 4810 50  0001 C CNN
+F 1 "GND" H 8875 4887 50  0000 C CNN
+F 2 "" H 8870 5060 50  0001 C CNN
+F 3 "" H 8870 5060 50  0001 C CNN
+	1    8870 5060
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9070 1350 8970 1350
+Wire Wire Line
+	8870 1350 8870 1180
+Connection ~ 8870 1350
+Connection ~ 8970 1350
+Wire Wire Line
+	8970 1350 8870 1350
+$Comp
+L power:+5V #PWR?
+U 1 1 607C254A
+P 8870 1180
+F 0 "#PWR?" H 8870 1030 50  0001 C CNN
+F 1 "+5V" H 8885 1353 50  0000 C CNN
+F 2 "" H 8870 1180 50  0001 C CNN
+F 3 "" H 8870 1180 50  0001 C CNN
+	1    8870 1180
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
