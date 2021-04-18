@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 16)
+    (drawings 2)
     (tracks 613)
     (zones 0)
     (modules 93)
@@ -359,7 +359,7 @@
       (net 1 GND))
   )
 
-  (module Keebio-Parts:TRRS_Jack (layer F.Cu) (tedit 592AE9A5) (tstamp 60803D3E)
+  (module Keebio-Parts:TRRS_Jack (layer F.Cu) (tedit 592AE9A5) (tstamp 60802469)
     (at 0 99.21875)
     (path /607D027E)
     (fp_text reference U2 (at 0.00008 -6.63008) (layer F.SilkS) hide
@@ -3852,20 +3852,6 @@
     )
   )
 
-  (gr_line (start 144.3355 188.087) (end -4.09575 188.087) (layer Edge.Cuts) (width 0.05) (tstamp 60803AA0))
-  (gr_line (start 152.273 100.7745) (end 152.273 180.1495) (layer Edge.Cuts) (width 0.05) (tstamp 60803A9F))
-  (gr_line (start -8.85825 92.837) (end 144.3355 92.837) (layer Edge.Cuts) (width 0.05) (tstamp 60803A9E))
-  (gr_line (start -16.79575 111.887) (end -16.79575 100.7745) (layer Edge.Cuts) (width 0.05) (tstamp 60803A9D))
-  (gr_line (start -26.32075 111.887) (end -16.79575 111.887) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start -26.32075 130.937) (end -26.32075 111.887) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start -21.55825 130.937) (end -26.32075 130.937) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start -21.55825 149.987) (end -21.55825 130.937) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start -12.03325 149.987) (end -21.55825 149.987) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start -12.03325 180.1495) (end -12.03325 149.987) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 144.3355 180.1495) (end 144.3355 188.087) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 144.3355 100.7745) (end 152.273 100.7745) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start -8.85825 100.7745) (end -8.85825 92.837) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start -4.09575 180.1495) (end -12.03325 180.1495) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_text "Galjook60 Rev 1.0" (at 7.8105 173.00575) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
