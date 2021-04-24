@@ -1626,4 +1626,19 @@ Text GLabel 10330 4500 2    50   Input ~ 0
 col0
 Text GLabel 10330 3500 2    50   Input ~ 0
 col1
+Entry Wire Line
+	9500 3490 9600 3590
+Wire Wire Line
+	10330 2700 10670 2700
+$Comp
+L power:+5V #PWR?
+U 1 1 607EC16E
+P 10670 2700
+F 0 "#PWR?" H 10670 2550 50  0001 C CNN
+F 1 "+5V" H 10685 2873 50  0000 C CNN
+F 2 "" H 10670 2700 50  0001 C CNN
+F 3 "" H 10670 2700 50  0001 C CNN
+	1    10670 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
