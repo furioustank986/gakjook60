@@ -1456,7 +1456,7 @@ Wire Wire Line
 Text GLabel 1600 1710 1    50   Input ~ 0
 col0
 Wire Wire Line
-	1950 4310 1950 3710
+	1950 4310 1950 4240
 Connection ~ 1950 1910
 Wire Wire Line
 	1950 1910 1950 1710
@@ -1756,4 +1756,42 @@ Text GLabel 9570 3450 2    50   Input ~ 0
 col2
 Text GLabel 9570 3250 2    50   Input ~ 0
 col1
+Text GLabel 9570 3350 2    50   Input ~ 0
+col0
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 609AA187
+P 1100 4360
+F 0 "MX?" H 1133 4583 60  0000 C CNN
+F 1 "MX-NoLED" H 1133 4509 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 475 4335 60  0001 C CNN
+F 3 "" H 475 4335 60  0001 C CNN
+	1    1100 4360
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 609AAC87
+P 1750 4290
+F 0 "MX?" H 1783 4513 60  0000 C CNN
+F 1 "MX-NoLED" H 1783 4439 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2.75U-NoLED" H 1125 4265 60  0001 C CNN
+F 3 "" H 1125 4265 60  0001 C CNN
+	1    1750 4290
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4440 1700 4510
+Connection ~ 1700 4510
+Wire Wire Line
+	1900 4240 1950 4240
+Connection ~ 1950 4240
+Wire Wire Line
+	1950 4240 1950 3710
+Wire Wire Line
+	1050 4510 1350 4510
+Connection ~ 1350 4510
+Wire Wire Line
+	1250 4310 1600 4310
+Connection ~ 1600 4310
 $EndSCHEMATC
